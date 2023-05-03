@@ -1,0 +1,371 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+body{
+    
+}
+.heading{
+    width: full;
+    background-color: green;
+    color: white;
+    font-size: 24px;
+    /* font-weight: bold; */
+    height: 6vh;
+    padding-top: 2vh;
+    text-align: center;
+}
+
+.navbar{
+    height: 15vh;
+    width: 90vw;
+    margin: auto;
+    padding: 10px 0px;
+    color: green;
+    /* position: sticky; */
+    top: 0px;
+    left: 0px;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    
+}
+.navbar li:nth-child(1){
+margin-left: 5vw;
+}
+.navbar li{
+    margin: 0px 2.5vw;
+margin-top: 8vh;
+font-size: 24px;
+
+}
+.navbar img{
+    height: 200px;
+    margin: 10px 100px;
+}
+.slider{
+    width: 100%;
+    height: 82vh;
+    background: rgb(230 237 183);
+    color:white;
+    display: flex;
+
+}
+.slider-left{
+    width: 50vw;
+    height: full;
+    font-size: 24px;
+    /* color: rgb(255 129 0); */
+    color: #08203e;
+    text-shadow: 2px 2px white ;
+    font-family: 'Sigmar', cursive;
+    padding-left: 2vw;
+    padding-top: 5vh;
+}
+.small{
+    color: green;
+    margin-left: 10px;
+}
+.slider-right{
+    width: 50vw;
+    height: full;
+    margin-top: 10vh;
+    
+}
+.slider-right img{
+    width: 600px;
+}
+.bgtext{
+    font-size: 80px;
+    width: 90%;
+    margin-top: 50px;
+}
+
+ button{
+    width: 150px;
+    height: 50px;
+    background: green;
+    font-size: 20px;
+    color: white;
+    margin: 20px;
+    border: none;
+}
+.items{
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw 20vw;
+    column-gap: 5vw;
+    list-style: none;
+}
+.items li{
+    height: 55vh;
+    margin: 20px;
+    width: 20vw;
+    font-size: 20px;
+    text-align: left;
+}
+.items li img{
+    width: 20vw;
+    padding-bottom: 0px;
+    margin-top: -20px;
+}
+.items li{
+    background: rgb(244, 248, 238);
+    
+}
+.brand{
+    margin-bottom: 10px;
+    margin-top: -40px;
+    color:rgb(37, 36, 36);
+    padding: 0px 20px;
+
+}
+.price{
+    margin: 4px;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 24px;
+}
+.button{
+    width: 150px;
+    background-color: #08203e;
+    color: white;
+    text-align: center;
+    height: 20px;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.banner{
+    width: 90vw;
+    margin: 20px auto;
+    height: 40vh;
+    background: ;
+ display: flex;
+ 
+}
+.banner div img{
+    width: 13vw;
+}
+.banner div{
+    margin: 20px 40px;
+}
+.imageing{
+    height: 200vh;
+    width: 100%;
+
+    position: relative;
+}
+.mac{
+    position: absolute;
+    width: 10vw;
+    top: 0px;
+    left: 10vw;
+}
+.mac img{
+    width: 40vw;
+}
+.phone{
+    position: absolute;
+    width: 10vw;
+    top: 0px;
+    left: 50vw;
+}
+.phone img{
+    width: 40vw;
+}
+.tab {
+    position: absolute;
+    width: 10vw;
+    top: 80vh;
+    left: 50vw;margin-top: 10vh;
+}
+.tab img{
+    width: 40vw;
+}
+.lap {
+    position: absolute;
+    width: 10vw;
+    top: 80vh;
+    left: 10vw;
+    margin-top: 10vh;
+}
+.lap img{
+    width: 40vw;
+}
+.buy{
+    font-size: 100px;
+    font-weight: bold;
+    width: 500px;
+    text-align: center;
+    margin: 40px auto;
+}
+.abs{
+    width: 200px;
+    position: absolute;
+    
+}
+
+@media screen and (max-width: 850px) {
+    .slider-right img{
+        margin-top: 0;
+        width: 500px;
+        margin:  auto;
+    }
+    .slider-right{
+        height: 60vh;
+    }
+    .navbar img{
+        margin: 10px;
+        margin-top: 8vh;
+    }
+    .navbar li{
+        margin-top: 10vh ;
+    }
+    
+}
+@media screen and (max-width: 1250px) {
+    .navbar li{
+        margin:0px 1vw;
+        margin-top: 8vh;
+    }
+    .navbar{
+        width: full;
+    }
+    .navbar li:nth-child(1){
+        margin-left: 1vw;
+        }
+    .abs{
+        margin: 10px 10px;
+        
+    }
+    .slider{
+        display: flex;
+        flex-direction: column-reverse; 
+        padding-top: 0;
+    }
+    .slider-right{
+        height: 60vh;
+        width: 100vw;
+        /* margin-top: -40vh; */
+
+    }
+    .slider-right img{
+        margin-top: 0;
+        width: 80vw;
+        margin: 0px auto;
+    }
+    .slider-left{
+        height: 60vh;
+        margin-top: 0;
+        width: 100vw;
+        
+    }
+    
+    .bgtext{
+        width: full;
+        font-size: 300%;
+    }
+    .slider{
+        height: 100vh;
+        padding: 0px auto;
+    }
+
+
+    .imageing{
+        height: 100vh;
+        width: 100%;
+    
+        position: relative;
+    }
+    .mac{
+        position: absolute;
+        width: 20vw;
+        top: 0px;
+        left: 0vw;
+    }
+    .mac img{
+        width: 50vw;
+    }
+    .phone{
+        position: absolute;
+        width: 10vw;
+        top: 0px;
+        left: 50vw;
+    }
+    .phone img{
+        width: 50vw;
+    }
+    .tab {
+        position: absolute;
+        width: 10vw;
+        top: 25vh;
+        left: 50vw;margin-top: 10vh;
+    }
+    .tab img{
+        width: 50vw;
+    }
+    .lap {
+        position: absolute;
+        width: 10vw;
+        top: 25vh;
+        left: 0vw;
+        margin-top: 10vh;
+    }
+    .lap img{
+        width: 50vw;
+    }
+    .buy{
+        font-size: 100px;
+        font-weight: bold;
+        width: 500px;
+        text-align: center;
+        margin: 40px auto;
+    }
+    .abs{
+        width: 200px;
+        position: absolute;
+        
+    }
+    
+}
+@media screen and (min-width: 380px){
+    .navbar li{
+        display: none;
+    }
+    .navbar img{
+        margin: 0px auto;
+        margin-top: 6vh;
+    }
+    .slider-right{
+        margin-top: 10vh;
+        height: 20vh;
+    }
+    .slider-left{
+        margin: 0px auto;
+        padding: 0px;
+        width: 100vw;
+        
+    }
+    .bgtext{
+        height: 30vh;
+        font-size: 50px;
+    }
+    .buy{
+        font-size: 60px ;
+        width: 200px;
+    }
+    .imageing{
+        height: 80vh;
+    }
+    .heading{
+        padding: 5px 10px;
+    }
+}
+@media screen and (min-width: 410px){
+
+    .bgtext{height: 20vh;}
+}
