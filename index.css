@@ -406,6 +406,13 @@ font-size: 24px;
     .heading{
         height: 10vh;
         padding: 2px 2px;
-        font-size: 16px;
+        /* font-size: 20px; */
+    }
+}
+@media screen and (max-height: 700px){
+    .heading{
+        height: 10vh;
+        padding: 2px 2px;
+        font-size: 20px;
     }
 }
