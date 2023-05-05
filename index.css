@@ -405,5 +405,7 @@ font-size: 24px;
 @media screen and (max-height: 800px){
     .heading{
         height: 10vh;
+        padding: 2px 2px;
+        font-size: 16px;
     }
 }
