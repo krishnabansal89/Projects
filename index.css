@@ -400,4 +400,8 @@ font-size: 24px;
         padding: 5px 10px;
     }
 }
+@media screen and (max-height: 800px){
+    .heading{
+        height: 10vh;
+    }
 }
