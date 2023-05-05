@@ -357,7 +357,8 @@ font-size: 24px;
     }
     .buy{
         font-size: 60px ;
-        width: 200px;
+        width: 70vw;
+        margin: 0px auto;
     }
     .imageing{
         height: 80vh;
@@ -391,7 +392,8 @@ font-size: 24px;
     }
     .buy{
         font-size: 60px ;
-        width: 200px;
+        width: 70vw;
+        margin: 0px auto;
     }
     .imageing{
         height: 80vh;
